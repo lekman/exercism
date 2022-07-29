@@ -1,1 +1,26 @@
 /.DS_Store
+
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs
+bin
+obj
+**/bin*
+**/obj*
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
+**/*.DotSettings.user
+
+# Python objets
+.DS_Store
+**/env
+**/__pycache__
+**/.vscode
+
+# Do not include local dev and test files
+**/test.*
